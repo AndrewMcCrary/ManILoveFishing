@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'milf-client';
+  title='Home'; subtitle='Welcome Home!'; content= 'Some home content.'; image= 'assets/DockFishing.jpg';
 }
+

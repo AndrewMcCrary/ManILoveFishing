@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuItem } from 'primeng/api'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'milf-web';
+
+  public menuItems: MenuItem[] = [
+    {
+      label: 'home',
+      url: '/',
+      tabindex: '0',
+    }
+  ]
+
 }

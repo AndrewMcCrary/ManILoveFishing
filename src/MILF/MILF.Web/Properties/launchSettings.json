@@ -1,14 +1,5 @@
 {
   "profiles": {
-    "MILF": {
-      "commandName": "Project",
-      "launchBrowser": true,
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
-      },
-      "applicationUrl": "http://localhost:5197"
-    },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
@@ -19,16 +10,20 @@
     },
     "Docker": {
       "commandName": "Docker",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "http://+:80"
+      },
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
-      "publishAllPorts": true
+      "publishAllPorts": true,
+      "httpPort": 24051
     }
   },
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:28004",
+      "applicationUrl": "http://localhost:51717",
       "sslPort": 0
     }
   }

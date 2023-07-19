@@ -4,26 +4,31 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenubarModule } from 'primeng/menubar';
-import { NewsComponent } from './news/news.component';
-import { SocialComponent } from './social/social.component';
-import { MapComponent } from './map/map.component';
-import { TutorialsComponent } from './tutorials/tutorials.component';
+import { NewsComponent } from './components/news/news.component';
+import { MapComponent } from './components/map/map.component';
+import { SocialModule } from './components/social/social.module'
+import { TutorialsComponent } from './components/tutorials/tutorials.component';
+import { friendsService } from './shared/services/friends.service';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NewsComponent,
-    SocialComponent,
     MapComponent,
-    TutorialsComponent
+    TutorialsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MenubarModule,
+    SocialModule,
+    NgbModule,
   ],
-  providers: [],
+  providers: [
+    friendsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

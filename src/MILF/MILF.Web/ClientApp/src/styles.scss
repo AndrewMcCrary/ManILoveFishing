@@ -3,9 +3,14 @@
 @import url("primeng/resources/primeng.min.css");
 
 .p-menubar { //not working because its being overridden 
-    color: #ff0000;
+    color: #ffffff;
+    background-color: #8f0000;
+    border-radius: 5px;
 }
 
 html {
     background-color: rgb(240, 240, 240);
 }
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';

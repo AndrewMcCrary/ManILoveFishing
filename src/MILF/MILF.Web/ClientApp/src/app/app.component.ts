@@ -11,14 +11,30 @@ export class AppComponent {
 
   public menuItems: MenuItem[] = [
     {
-      label: 'home',
+      label: 'Home',
       url: '/',
       tabindex: '0',
     },
     {
-      label: 'social',
-      url: '/social',
+      label: 'Map',
+      url: '/map',
       tabindex: '1'
+    },
+    {
+      label: 'Social',
+      url: '/social',
+      tabindex: '2'
+    },
+    {
+      label: 'News',
+      url: '/news',
+      tabindex: '3'
+    },
+
+    {
+      label: 'Tutorials',
+      url: '/tutorials',
+      tabindex: '4'
     }
   ]
 

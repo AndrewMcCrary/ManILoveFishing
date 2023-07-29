@@ -25,10 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ClientApp\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\MILF.Business\MILF.Business.csproj" />
   </ItemGroup>
 

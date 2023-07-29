@@ -8,6 +8,7 @@ import { NewsComponent } from './news/news.component';
 import { SocialComponent } from './social/social.component';
 import { MapComponent } from './map/map.component';
 import { TutorialsComponent } from './tutorials/tutorials.component';
+import { StoreModule } from './store/store.module';
 
 
 @NgModule({
@@ -16,12 +17,13 @@ import { TutorialsComponent } from './tutorials/tutorials.component';
     NewsComponent,
     SocialComponent,
     MapComponent,
-    TutorialsComponent
+    TutorialsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MenubarModule,
+    StoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

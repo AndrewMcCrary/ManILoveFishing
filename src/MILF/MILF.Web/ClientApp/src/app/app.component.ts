@@ -30,6 +30,7 @@ export class AppComponent {
       url: '/news',
       tabindex: '3'
     },
+
     {
       label: 'Tutorials',
       url: '/tutorials',

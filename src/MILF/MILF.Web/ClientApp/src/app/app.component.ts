@@ -14,6 +14,11 @@ export class AppComponent {
       label: 'home',
       url: '/',
       tabindex: '0',
+    },
+    {
+      label: 'social',
+      url: '/social',
+      tabindex: '1'
     }
   ]
 

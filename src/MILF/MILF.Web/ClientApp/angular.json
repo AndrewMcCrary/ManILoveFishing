@@ -76,9 +76,6 @@
               "browserTarget": "milf-web:build:development"
             }
           },
-          //"options": {
-          //  "port": 5050
-          //},
           "defaultConfiguration": "development"
         },
         "extract-i18n": {

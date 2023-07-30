@@ -10,6 +10,7 @@ import { SocialModule } from './components/social/social.module'
 import { TutorialsComponent } from './components/tutorials/tutorials.component';
 import { friendsService } from './shared/services/friends.service';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { DatePipe } from '@angular/common';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NgbModule,
   ],
   providers: [
-    friendsService
+    friendsService,
+    DatePipe
   ],
   bootstrap: [AppComponent]
 })

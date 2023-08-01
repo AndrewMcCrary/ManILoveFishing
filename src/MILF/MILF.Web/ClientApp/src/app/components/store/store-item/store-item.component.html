@@ -1,8 +1,6 @@
-<!--<div class="store-item-box">-->
-  <img src={{item}} class="store-item-image"/>
-  <p class="store-item-text">
-    {{item}}<br>
-    ${{item}}
-  </p>
-  <button type="button" class="store-item-button">Buy</button>
-  <!--</div>-->
+<img src={{item.image}} class="store-item-image"/>
+ <p class="store-item-text">
+   {{item.name}}<br>
+   ${{item.price.toFixed(2)}}
+ </p>
+ <button type="button" class="store-item-button">Buy</button>

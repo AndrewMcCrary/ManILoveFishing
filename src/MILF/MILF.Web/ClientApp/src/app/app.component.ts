@@ -19,6 +19,11 @@ export class AppComponent {
       label: 'social',
       url: '/social',
       tabindex: '1'
+    },
+    {
+      label: 'store',
+      url: '/store',
+      tabindex: '2'
     }
   ]
 

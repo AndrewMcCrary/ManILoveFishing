@@ -1,11 +1,3 @@
-.store-item-box {
-  background-color: lightgrey;
-  border-radius: 10px;
-  margin: 10px;
-  width: 250px;
-  height: 400px;
-}
-
 .store-item-image {
   text-align: center;
   margin-left: 5%;
@@ -29,11 +21,12 @@
   font-weight: bold;
   color: white;
   background-color: coral;
-  width: 60px;
-  height: 30px;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
   border: none;
 }
 
-.store-item-button:hover {
+.store-item-button:active {
   background-color: lightcoral;
 }

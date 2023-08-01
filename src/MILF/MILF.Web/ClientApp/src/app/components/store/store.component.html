@@ -1,5 +1,5 @@
 <p>store works!</p>
-<div class="store-item-container" >
+<div class="store-item-container" *ngIf="items != null">
   <div *ngFor="let item of items;" class="store-item-box">
     <app-store-item [item]="item"></app-store-item>
   </div>

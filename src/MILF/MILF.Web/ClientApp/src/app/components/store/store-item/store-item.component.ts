@@ -7,5 +7,5 @@ import { item } from 'src/app/shared/models/item.model';
   styleUrls: ['./store-item.component.scss'],
 })
 export class StoreItemComponent {
-  @Input() item: item | null = null;
+  @Input() item!: item;
 }

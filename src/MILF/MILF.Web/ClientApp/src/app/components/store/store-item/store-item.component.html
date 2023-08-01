@@ -1,0 +1,10 @@
+<ng-template pTemplate="items" let-item>
+  <div class="py-2 store-item-box">
+    <img src={{ item.image }} class="store-item-image" />
+    <p class="store-item-text">
+      {{ item.name }}<br>
+      ${{ item.price }}
+    </p>
+    <button type="button" class="store-item-button">Buy</button>
+  </div>
+</ng-template>

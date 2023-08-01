@@ -6,7 +6,6 @@ import { StoreItemComponent } from './store-item/store-item.component';
 describe('StoreComponent', () => {
   let component: StoreComponent;
   let fixture: ComponentFixture<StoreComponent>;
-  let storeItems: StoreItemComponent[] = [];
 
   beforeEach(() => {
     TestBed.configureTestingModule({

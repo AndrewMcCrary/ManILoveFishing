@@ -1,9 +1,6 @@
 <p>store works!</p>
-
-<div class="store-item-container">
-  <app-store-item [items] ="items"></app-store-item>
-</div>
-
-<div *ngFor="let item in storeItems">
-  <div>Test item {{item}}</div>
+<div class="store-item-container" >
+  <div *ngFor="let item of items;" class="store-item-box">
+    <app-store-item [item]="item"></app-store-item>
+  </div>
 </div>

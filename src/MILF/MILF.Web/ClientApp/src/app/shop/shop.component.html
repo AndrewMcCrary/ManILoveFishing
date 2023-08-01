@@ -1,0 +1,14 @@
+<div class="shop-container">
+    <div class="product-grid">
+      <div *ngFor="let product of products" class="product-item">
+        <img [src]="product.image" alt="{{ product.name }}" />
+        <div class="product-info">
+          <div class="product-name">{{ product.name }}</div>
+          <div class="product-price">$ {{ product.price }}</div>
+          <!-- Add any other product details you want to display here -->
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

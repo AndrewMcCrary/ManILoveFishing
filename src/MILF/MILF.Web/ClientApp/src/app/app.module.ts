@@ -11,14 +11,18 @@ import { TutorialsComponent } from './components/tutorials/tutorials.component';
 import { friendsService } from './shared/services/friends.service';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DatePipe } from '@angular/common';
+import { ShopComponent } from './shop/shop.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NewsComponent,
+    ShopComponent,
     MapComponent,
     TutorialsComponent,
+    ShopComponent,
   ],
   imports: [
     BrowserModule,

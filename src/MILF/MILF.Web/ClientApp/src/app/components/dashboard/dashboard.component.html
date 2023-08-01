@@ -3,21 +3,25 @@
   <div class="dashboard">
 
     <div class="brick social">
+      <div class="brick social" (click)="navigateToSocialPage()">
       <h2>Friends </h2>
       <p>Matt has sent a message:</p>
       <p>Hello Andrew, will you be providing our tackle tonight? I sure hope so as the gas station has just run out of our favorite night crawlers</p>
     </div>
+    </div>
 
     <div class="brick news">
-      <!-- News content goes here -->
+      <div class="brick news" (click)="navigateToNewsPage()">
       <h2>Number 1 News! </h2>
       <p>Record-Breaking Catch at Annual Fishing Tournament.</p>
       <p>Check out the latest article written by Brandon Thompson</p>
     </div>
+  </div>
 
     <div class="brick tutorials">
+      <div class="brick tutorials" (click)="navigateToTutorialsPage()">
       <h2>Tutorials </h2>
-      <p>Wanna learn how to catch so big game?</p>
+      <p>Wanna learn how to catch some big game?</p>
       <p>New tutorials from Matthew McGowan</p>
     </div>
   </div>

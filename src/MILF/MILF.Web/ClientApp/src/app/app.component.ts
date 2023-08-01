@@ -34,6 +34,11 @@ export class AppComponent {
       label: 'Tutorials',
       url: '/tutorials',
       tabindex: '4'
+    },
+    {
+      label: 'Shop',
+      url: '/shop',
+      tabindex: '5'
     }
   ]
 

@@ -1,13 +1,45 @@
-.list-wrapper {
-    padding: 0.5rem;
-    background-color: gray;
-    border-radius: 5px;
-}
-
-.friends-list-item {
-    background-color: rgb(187, 187, 187);
-    border-color: gray;
-    border: gray;
-    border-width: 1rem;
+.main-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .list-wrapper {
+    flex: 1; /* Take up the whole left side of the page */
     padding: 1rem;
-}
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-right: 10px; /* Add some spacing between the list and search bar */
+  }
+  
+  .font-weight-bold {
+    font-weight: bold;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .friend-item {
+    background-color: #2ed18d;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .messages {
+    width: 400px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .message-item {
+    background-color: #f0f0f0;
+    color: #333;
+  }

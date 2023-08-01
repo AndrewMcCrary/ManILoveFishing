@@ -1,13 +1,17 @@
-<p>friends-list works!</p>
-<div class="list-wrapper">
-    <h3 class="text-center font-weight-bold p-1 m-1">
-        Friends
-    </h3>
-    <p-scroller [items]="friends" [itemSize]="50" scrollHeight="200px">
+<div class="main-container">
+    <div class="list-wrapper">
+      <h3 class="text-center font-weight-bold">Friends</h3>
+      <p-scroller [items]="friends" [itemSize]="50" scrollHeight="800px">
         <ng-template pTemplate="item" let-item>
-            <div class="py-2 flex align-items-center friends-list-item" style="height: 50px;">
-                {{ item.name }}
-            </div>
+          <div class="friend-item">
+            {{ item.name }}
+          </div>
         </ng-template>
-    </p-scroller>
-</div>
+      </p-scroller>
+    </div>
+  
+    <div class="messages">
+        <h3 class="text-center font-weight-bold">Messages</h3>
+        
+      </div>
+    </div>

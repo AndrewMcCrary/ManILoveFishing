@@ -2,15 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
   }
   
   .product-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-  }
-  
+}
   .product-item {
     display: flex;
     flex-direction: column;
@@ -58,5 +56,3 @@
     &:hover {
       transform: scale(1.05);
     }
-  }
-  
